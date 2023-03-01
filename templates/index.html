@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Apartment Rent Predictor</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}" method="post">
+    <input type="number" name="Apartment's Number of Rooms" placeholder="Rooms" required="required" />
+    <select name="Apartment's Region: NE=4 NW=5, SE=6, SW=7" required="required">
+        <option value="">Select Region</option>
+        <option value="4">NE</option>
+        <option value="5">NW</option>
+        <option value="6">SE</option>
+        <option value="7">SW</option>
+    </select>
+    <input type="number" name="Apartment's Area" placeholder="Area" required="required" />
+    <button type="submit">Predict Rent</button>
+</form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
