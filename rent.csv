@@ -1,0 +1,17 @@
+bed_room,area,location,rent
+studio,600,NE,800
+studio,600,NW,900
+studio,600,SE,900
+studio,600,SW,1000
+one,800,NE,1000
+one,800,NW,1150
+one,800,SE,1150
+one,800,SW,1200
+two,1200,NE,1450
+two,1200,NW,1550
+two,1200,SE,1600
+two,1200,SW,1700
+three,1350,NE,1800
+three,1350,NW,1950
+three,1350,SE,2000
+three,1350,SW,2200
