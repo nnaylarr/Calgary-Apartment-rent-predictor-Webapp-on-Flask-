@@ -58,4 +58,4 @@ if not all(isinstance(i, (int, float)) for i in input_data):
     print("Invalid input. All values must be numerics.")
 else:
     prediction = model.predict([input_data])[0]
-    print(f"Predicted rent for input {input_data} is: ${round(prediction, 2)}")
+    print(f"Predicted rent for inputs {input_data} is: ${round(prediction, 2)}")
