@@ -55,7 +55,7 @@ input_data = [2, 2200, 5]  # Format: [bed_room, area, location]
 
 # Simple input validation
 if not all(isinstance(i, (int, float)) for i in input_data):
-    print("Invalid input. All values must be numeric.")
+    print("Invalid input. All values must be numerics.")
 else:
     prediction = model.predict([input_data])[0]
     print(f"Predicted rent for input {input_data} is: ${round(prediction, 2)}")
