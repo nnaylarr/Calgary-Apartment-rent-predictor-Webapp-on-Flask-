@@ -1,0 +1,330 @@
+{
+  "id": "69b7809c-9fb8-43f9-ade0-5d3cd86e8ed8",
+  "version": "2.0",
+  "name": "sewa",
+  "url": "https://urban-capybara-7vr776jgqrpgcr56w-5000.app.github.dev",
+  "tests": [{
+    "id": "b28671e7-1653-4d6a-8c0c-527992861af9",
+    "name": "blackbox testing",
+    "commands": [{
+      "id": "cfee5163-9d34-4f4f-85f7-9ecc9781f97b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df13b161-121c-45b7-9daa-624500ebacda",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfe4d84a-73b3-460e-b39f-f66d3898fea5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1381c5ef-e20d-4976-bce4-34e4a6fa4da9",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "a6ba0086-7a28-4019-a959-28bea9c0e348",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "733d1794-5d9e-4fd0-b421-0afde8b23a12",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-2"
+    }, {
+      "id": "f8730129-1400-449f-a733-c2f8b07c3ff6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed64c53f-04f7-42f5-898a-134c2d25bfbf",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "cdd16c77-f6c4-4d86-a786-3adb66234db6",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63224566-577b-4e88-b9a5-73cbaa9038a1",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "40c85b0d-25c3-4037-a72e-73e487e63140",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c011971-591f-4736-a0fa-2bd57dc33130",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de76b197-1c48-4faa-822e-b30a387fc5d9",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "6a352f6d-afcd-4966-a41d-11305a2c9db5",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37177da4-85a0-439c-bda2-296d4504ac0a",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "c00c6db8-d303-4ebc-98f1-81d0511bf45b",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Number of Rooms",
+      "targets": [
+        ["name=Apartment's Number of Rooms", "name"],
+        ["css=input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Number of Rooms\"]", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b64c8d3-b323-4466-ac4f-0f5ef2eef133",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "name=Apartment's Region: NE=4 NW=5, SE=6, SW=7",
+      "targets": [
+        ["name=Apartment's Region: NE=4 NW=5, SE=6, SW=7", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name=\"Apartment's Region: NE=4 NW=5, SE=6, SW=7\"]", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-176.6666717529297,-80.19999694824219"
+    }, {
+      "id": "52367b3b-75b1-4443-a191-2faad7918b54",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "name=Apartment's Region: NE=4 NW=5, SE=6, SW=7",
+      "targets": [
+        ["name=Apartment's Region: NE=4 NW=5, SE=6, SW=7", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name=\"Apartment's Region: NE=4 NW=5, SE=6, SW=7\"]", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-176.6666717529297,-80.19999694824219"
+    }, {
+      "id": "b5f20493-2a73-4e19-931c-46da08444b1b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "name=Apartment's Region: NE=4 NW=5, SE=6, SW=7",
+      "targets": [
+        ["name=Apartment's Region: NE=4 NW=5, SE=6, SW=7", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name=\"Apartment's Region: NE=4 NW=5, SE=6, SW=7\"]", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": "-176.6666717529297,-80.19999694824219"
+    }, {
+      "id": "8d9db807-bce1-4d21-abfb-3a63034ebba7",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Region: NE=4 NW=5, SE=6, SW=7",
+      "targets": [
+        ["name=Apartment's Region: NE=4 NW=5, SE=6, SW=7", "name"],
+        ["css=select", "css:finder"],
+        ["xpath=//select[@name=\"Apartment's Region: NE=4 NW=5, SE=6, SW=7\"]", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "650655b4-3bd2-48d6-ab81-5da7ca064589",
+      "comment": "",
+      "command": "select",
+      "target": "name=Apartment's Region: NE=4 NW=5, SE=6, SW=7",
+      "targets": [],
+      "value": "label=NW"
+    }, {
+      "id": "fc95072d-eba8-49b1-9a1d-ae4e97cfc44e",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(3)",
+      "targets": [
+        ["css=option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='5']", "xpath:attributes"],
+        ["xpath=//option[3]", "xpath:position"],
+        ["xpath=//option[contains(.,'NW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d185473f-7744-4cae-80ca-bdf73aef3c03",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Area",
+      "targets": [
+        ["name=Apartment's Area", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Area\"]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "7c26bc51-c160-4196-a352-31cae93b1f15",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Area",
+      "targets": [
+        ["name=Apartment's Area", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Area\"]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8984d5-f987-41b5-a9c2-3b44f870a1f0",
+      "comment": "",
+      "command": "type",
+      "target": "name=Apartment's Area",
+      "targets": [
+        ["name=Apartment's Area", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Area\"]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "7db6e881-ecbe-4e3e-ba9e-33b2a3760f8e",
+      "comment": "",
+      "command": "click",
+      "target": "name=Apartment's Area",
+      "targets": [
+        ["name=Apartment's Area", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name=\"Apartment's Area\"]", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98a0b1fe-abc7-498d-bfa1-fefca98517bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Predict Rent')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ef738e46-a896-471f-b634-52d72ab0d808",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b28671e7-1653-4d6a-8c0c-527992861af9"]
+  }],
+  "urls": ["https://urban-capybara-7vr776jgqrpgcr56w-5000.app.github.dev/"],
+  "plugins": []
+}
